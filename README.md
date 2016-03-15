@@ -130,7 +130,7 @@ Or PHP view
 </html>
 ```
 
-JS file (fox AJAX calls)
+JS file (fox AJAX calls) using jQuery
 
 ```js
 $(function () {
@@ -175,6 +175,16 @@ $(function () {
 });
 ```
 
+And .htaccess
+
+```apache_conf
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [QSA,L]
+</IfModule>
+```
+
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/aurmil/slim3-csrf-utilities/README.md) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/aurmil/slim3-csrf-utilities/blob/master/LICENSE.md) for more information.

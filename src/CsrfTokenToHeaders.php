@@ -4,7 +4,7 @@
  *
  * @author Aurélien Millet
  * @link https://github.com/aurmil/slim3-csrf-utilities
- * @license https://github.com/aurmil/slim3-csrf-utilities/README.md
+ * @license https://github.com/aurmil/slim3-csrf-utilities/blob/master/LICENSE.md
  */
 
 namespace Aurmil\Slim;
