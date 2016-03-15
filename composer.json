@@ -1,0 +1,29 @@
+{
+    "name": "aurmil/slim3-csrf-utilities",
+    "description": "Slim Framework 3 CSRF protection middleware utilities",
+    "keywords": ["slimphp", "slim", "framework", "middleware", "csrf"],
+    "authors": [
+        {
+            "name": "Aurélien Millet",
+            "homepage": "http://www.aurelien-millet.fr/",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/aurmil/slim3-csrf-utilities",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5.0",
+        "slim/csrf": "^0.6.0"
+    },
+    "require-dev": {
+        "slim/slim": "^3.3",
+        "slim/php-view": "^2.1",
+        "slim/twig-view": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aurmil\\Slim\\": "src/"
+        }
+    }
+}
